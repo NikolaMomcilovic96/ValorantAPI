@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
         android:text="TextView"
+        android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -21,12 +22,12 @@
         android:id="@+id/descriptionTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/nameTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/agentImageView" />
 
     <TextView
         android:id="@+id/roleTextView"
@@ -34,6 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
         android:text="TextView"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,4 +51,25 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/roleTextView" />
+
+    <ImageView
+        android:id="@+id/agentImageView"
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTextView"
+        tools:src="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/roleImageView"
+        android:layout_width="46dp"
+        android:layout_height="45dp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/roleDescriptionTextView"
+        app:layout_constraintEnd_toStartOf="@+id/roleTextView"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextView"
+        tools:src="@tools:sample/avatars" />
 </androidx.constraintlayout.widget.ConstraintLayout>

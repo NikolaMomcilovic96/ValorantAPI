@@ -5,9 +5,13 @@
       <map>
         <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/activity_agent_detail.xml" value="0.2418478260869565" />
         <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/activity_map_detail.xml" value="0.2359375" />
         <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/agent_list_item.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/agents_fragment.xml" value="0.25" />
         <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/agents_list_activity.xml" value="0.25" />
+        <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/maps_list_activity.xml" value="0.25" />
+        <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/maps_list_fragment.xml" value="0.2359375" />
+        <entry key="..\:/Users/nikol/AndroidStudioProjects/ValorantAPI/app/src/main/res/layout/maps_list_item.xml" value="0.2418478260869565" />
       </map>
     </option>
   </component>

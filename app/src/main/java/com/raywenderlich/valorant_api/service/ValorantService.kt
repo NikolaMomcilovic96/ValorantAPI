@@ -9,10 +9,16 @@ import retrofit2.http.Path
 interface ValorantService {
 
     @GET("v1/agents/{uuid}")
-    suspend fun getCustomAgent(@Path("uuid") id: String): Response<AgentReponse>
+    suspend fun getCustomAgent(@Path("uuid") id: String): Response<AgentResponse>
 
     @GET("v1/agents")
     suspend fun getAllAgents(): Response<AgentsList>
+
+    @GET("v1/maps/{uuid}")
+    suspend fun getCustomMap(@Path("uuid") id: String): Response<MapsResponse>
+
+    @GET("v1/maps")
+    suspend fun getAllMaps(): Response<MapsList>
 
     companion object {
         val instance: ValorantService by lazy {

@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ValorantAPI">
         <activity
+            android:name=".ui.MapDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MapsListActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.AgentDetailActivity"
             android:exported="false" />
         <activity
