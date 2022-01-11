@@ -2,7 +2,6 @@ package com.raywenderlich.valorant_api.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import com.bumptech.glide.Glide
 import com.raywenderlich.valorant_api.databinding.ActivityMapDetailBinding
 import com.raywenderlich.valorant_api.repo.ValorantRepo

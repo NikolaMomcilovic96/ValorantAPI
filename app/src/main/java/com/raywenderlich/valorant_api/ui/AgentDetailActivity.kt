@@ -1,17 +1,13 @@
 package com.raywenderlich.valorant_api.ui
 
-import android.app.Activity
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Toast
 import androidx.core.view.WindowCompat
 import com.bumptech.glide.Glide
-import com.raywenderlich.valorant_api.R
 import com.raywenderlich.valorant_api.databinding.ActivityAgentDetailBinding
 import com.raywenderlich.valorant_api.repo.ValorantRepo
 import com.raywenderlich.valorant_api.service.ValorantService
-import kotlinx.android.synthetic.main.agent_list_item.view.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

@@ -4,5 +4,4 @@ import androidx.recyclerview.widget.RecyclerView
 import com.raywenderlich.valorant_api.databinding.AgentListItemBinding
 
 class AgentSelectionViewHolder(binding: AgentListItemBinding) :
-    RecyclerView.ViewHolder(binding.root) {
-}
+    RecyclerView.ViewHolder(binding.root)
