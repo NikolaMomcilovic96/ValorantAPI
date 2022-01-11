@@ -22,7 +22,6 @@ class MapsSelectionRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: MapsSelectionViewHolder, position: Int) {
         holder.itemView.mapNameTextView.text = maps[position].displayName
-        holder.itemView.coordinateTextView.text = maps[position].coordinates
         Glide.with(holder.itemView).load(maps[position].splash)
             .into(holder.itemView.mapSplashImageView)
 
