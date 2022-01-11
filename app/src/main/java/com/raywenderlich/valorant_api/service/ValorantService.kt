@@ -8,8 +8,8 @@ import retrofit2.http.Path
 
 interface ValorantService {
 
-    @GET("v1/agents/{agentId}")
-    suspend fun getCustomAgent(@Path("agentId") id: String): Response<Agent>
+    @GET("v1/agents/{uuid}")
+    suspend fun getCustomAgent(@Path("uuid") id: String): Response<AgentReponse>
 
     @GET("v1/agents")
     suspend fun getAllAgents(): Response<AgentsList>
